@@ -112,7 +112,7 @@ b {
 /* Intro section styles */
 
 .Hi {
-    max-width: 90rem;
+    max-width: 70rem;
     margin-right: auto;
     margin-left: auto;
     padding: 0 2rem
@@ -147,7 +147,7 @@ b {
 }
 
 .intro span {
-    color: rgb(6, 212, 16);
+    color: rgb(6, 173, 212);
 }
 
 .intro h1 {
@@ -300,7 +300,7 @@ a.button-slide {
     display: inline-block;
     outline: none;
     color: #f5f5f5;
-    background-color: rgb(6, 212, 16);
+    background-color: rgb(6, 173, 212);
     letter-spacing: .15rem;
     font-weight: 300;
     font-size: 1.5em;
