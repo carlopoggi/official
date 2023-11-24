@@ -6,7 +6,9 @@
     list-style: none
 }
 
-.projects,.contact,footer {
+.projects,
+.contact,
+footer {
     text-align: center
 }
 
@@ -16,11 +18,17 @@ html {
     -webkit-tap-highlight-color: transparent
 }
 
-*,*::before,*::after {
+*,
+*::before,
+*::after {
     box-sizing: inherit
 }
 
-html,body,ul,ol,figure {
+html,
+body,
+ul,
+ol,
+figure {
     margin: 0;
     padding: 0
 }
@@ -37,7 +45,9 @@ img {
     vertical-align: middle
 }
 
-h1,h2,h3 {
+h1,
+h2,
+h3 {
     margin: 0
 }
 
@@ -71,7 +81,8 @@ a {
     outline: none
 }
 
-a:hover,a:focus {
+a:hover,
+a:focus {
     color: #757575;
     outline: none
 }
@@ -101,7 +112,7 @@ b {
 /* Intro section styles */
 
 .Hi {
-    max-width: 74rem;
+    max-width: 90rem;
     margin-right: auto;
     margin-left: auto;
     padding: 0 2rem
@@ -109,7 +120,7 @@ b {
 
 @media (max-width: 768px) {
     .Hi {
-        padding:0 1rem
+        padding: 0 1rem
     }
 }
 
@@ -136,7 +147,7 @@ b {
 }
 
 .intro span {
-    color: rgb(3, 42, 233);
+    color: rgb(6, 212, 16);
 }
 
 .intro h1 {
@@ -149,7 +160,7 @@ b {
 
 @media (max-width: 768px) {
     .intro {
-        text-align:center
+        text-align: center
     }
 
     .intro h1 {
@@ -216,7 +227,7 @@ a.project-item {
 
 @media (min-width: 769px) {
     a.project-item {
-        width:50%;
+        width: 50%;
         float: left
     }
 }
@@ -237,7 +248,7 @@ a.project-item:hover .project-text h2:after {
 
 @media (max-width: 768px) {
     a.project-item .project-overlay {
-        opacity:.7
+        opacity: .7
     }
 
     a.project-item .project-text {
@@ -289,7 +300,7 @@ a.button-slide {
     display: inline-block;
     outline: none;
     color: #f5f5f5;
-    background-color: rgb(3, 42, 233);
+    background-color: rgb(6, 212, 16);
     letter-spacing: .15rem;
     font-weight: 300;
     font-size: 1.5em;
@@ -321,16 +332,19 @@ a.button-slide:before {
     color: rgb(3, 42, 233)
 }
 
-a.button-slide:hover,a.button-slide:focus {
+a.button-slide:hover,
+a.button-slide:focus {
     background-color: #fafafa;
 }
 
-a.button-slide:hover span,a.button-slide:focus span {
+a.button-slide:hover span,
+a.button-slide:focus span {
     -webkit-transform: translateY(-100%);
     transform: translateY(-100%)
 }
 
-a.button-slide:hover:before,a.button-slide:focus:before {
+a.button-slide:hover:before,
+a.button-slide:focus:before {
     top: 0
 }
 
